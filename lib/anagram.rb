@@ -14,8 +14,7 @@ class Anagram
    array.collect do |i|
      c = i.split("")
      d = c.sort
-     if b == d then return i 
-   end
+     if b == d then return i.to_a 
  end
   end
 end
