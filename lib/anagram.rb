@@ -8,6 +8,7 @@ class Anagram
   end
   
   def match(array)
+    result = []
     a = @word.split("")
     b = a.sort 
    # binding.pry 
@@ -15,7 +16,7 @@ class Anagram
      e = i 
      c = e.split("")
      d = c.sort
-     if b == d then return i.to_a 
+     if b == d result.push(i)
  end
  end
   end
