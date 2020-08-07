@@ -15,7 +15,7 @@ class Anagram
      e = i 
      c = e.split("")
      d = c.sort
-     if b == d then return i 
+     if b == d then return i.to_a 
  end
  end
   end
