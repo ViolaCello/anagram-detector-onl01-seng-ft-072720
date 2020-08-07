@@ -8,5 +8,5 @@ class Anagram
   
   def match(array)
     
-  
+  end
 end
