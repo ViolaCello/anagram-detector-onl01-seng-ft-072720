@@ -19,5 +19,6 @@ class Anagram
      if b == d result.push(i)
  end
  end
-
+end
+end
 end
