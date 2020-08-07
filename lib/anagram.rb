@@ -17,5 +17,6 @@ class Anagram
      d = c.sort
      if b == d then return i 
  end
+ end
   end
 end
