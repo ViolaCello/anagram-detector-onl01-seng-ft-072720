@@ -18,7 +18,8 @@ class Anagram
      d = c.sort
      if b == d result.push(i)
  end
- end
 end
-end
+end 
+
+
 end
