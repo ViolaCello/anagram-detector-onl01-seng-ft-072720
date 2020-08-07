@@ -10,6 +10,12 @@ class Anagram
   def match(array)
     a = @word.split("")
     b = a.sort 
-    binding.pry 
+   # binding.pry 
+   array.collect do |i|
+     c = i.split("")
+     d = c.sort
+     if b == d then return i 
+   end
+ end
   end
 end
