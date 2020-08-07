@@ -12,9 +12,10 @@ class Anagram
     b = a.sort 
    # binding.pry 
    array.collect do |i|
-     c = i.split("")
+     e = i 
+     c = e.split("")
      d = c.sort
-     if b == d then return i.to_a 
+     if b == d then return i 
  end
   end
 end
